@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1620096728 source:/home/rbastakoti/Desktop/OSFinalProject/src/Functions.cpp
+	<iostream>
+	<unistd.h>
+	<fcntl.h>
+	<iomanip>
+	<string>
+	<cstddef>
+	<cmath>
+	<libgen.h>
+	<string.h>
+	"vdiHeader.h"
+	"vdi.h"
+	"partitionEntry.h"
+	"partition.h"
+	"superBlock.h"
+	"blockDescriptor.h"
+	"ext2File.h"
+	"inode.h"
+	"DirectoryEntry.h"
+	"directory.h"
+	"funtions.h"
+
+1619659665 /home/rbastakoti/Desktop/OSFinalProject/src/vdiHeader.h
+
+1619660897 /home/rbastakoti/Desktop/OSFinalProject/src/vdi.h
+
+1619640926 /home/rbastakoti/Desktop/OSFinalProject/src/partitionEntry.h
+
+1619641151 /home/rbastakoti/Desktop/OSFinalProject/src/partition.h
+	"partitionEntry.h"
+
+1619642024 /home/rbastakoti/Desktop/OSFinalProject/src/superBlock.h
+
+1619641319 /home/rbastakoti/Desktop/OSFinalProject/src/blockDescriptor.h
+
+1619641447 /home/rbastakoti/Desktop/OSFinalProject/src/ext2File.h
+	"partition.h"
+	"superBlock.h"
+	"blockDescriptor.h"
+
+1620097878 /home/rbastakoti/Desktop/OSFinalProject/src/inode.h
+
+1619641768 /home/rbastakoti/Desktop/OSFinalProject/src/DirectoryEntry.h
+
+1619641768 /home/rbastakoti/Desktop/OSFinalProject/src/directory.h
+	"DirectoryEntry.h"
+	"ext2File.h"
+
+1620095386 /home/rbastakoti/Desktop/OSFinalProject/src/funtions.h
+	"vdiHeader.h"
+	"vdi.h"
+	"partitionEntry.h"
+	"partition.h"
+	"superBlock.h"
+	"blockDescriptor.h"
+	"inode.h"
+	"DirectoryEntry.h"
+	"directory.h"
+
+1620095443 source:/home/rbastakoti/Desktop/OSFinalProject/src/Main.cpp
+	<iostream>
+	<unistd.h>
+	<fcntl.h>
+	<iomanip>
+	<string>
+	<cstddef>
+	<cmath>
+	<libgen.h>
+	<string.h>
+	"vdiHeader.h"
+	"vdi.h"
+	"partitionEntry.h"
+	"partition.h"
+	"superBlock.h"
+	"blockDescriptor.h"
+	"ext2File.h"
+	"inode.h"
+	"DirectoryEntry.h"
+	"directory.h"
+	"funtions.h"
+

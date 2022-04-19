@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OSFinalProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OSFinalProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OSFinalProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Main.h" />
+		<Unit filename="src/DirectoryEntry.h" />
+		<Unit filename="src/Functions.cpp" />
+		<Unit filename="src/Main.cpp" />
+		<Unit filename="src/blockDescriptor.h" />
+		<Unit filename="src/directory.h" />
+		<Unit filename="src/ext2File.h" />
+		<Unit filename="src/funtions.h" />
+		<Unit filename="src/inode.h" />
+		<Unit filename="src/partition.h" />
+		<Unit filename="src/partitionEntry.h" />
+		<Unit filename="src/superBlock.h" />
+		<Unit filename="src/vdi.h" />
+		<Unit filename="src/vdiHeader.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
